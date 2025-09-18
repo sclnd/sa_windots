@@ -1,0 +1,98 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/refs/heads/master/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 2,
+  "default_container_padding": 2,
+  "border": true,
+  "border_width": 4,
+  "border_offset": -1,
+  "mouse_follows_focus": false,
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha",
+    "unfocused_border": "Surface0",
+    "bar_accent": "Peach",
+    "single_border": "Lavender",
+    "monocle_border": "Overlay0"
+  },
+  "transparency": false,
+  "transparency_alpha": 255,
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300
+    }
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 180,
+    "style": "Linear",
+    "fps": 120
+  },
+  "monitors": [
+    {
+      "window_based_work_area_offset_limit": 1,
+      "window_based_work_area_offset": {
+        "left": 600,
+        "top": 10,
+        "right": 1100,
+        "bottom": 25
+      },
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "Scrolling"
+        },
+        {
+          "name": "2",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "UltrawideVerticalStack"
+        }
+      ]
+    }
+  ],
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "WindowsTerminal.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Microsoft.CmdPal.UI.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Settings",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Sticky Notes",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Notesnook.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Flow.Launcher.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "warp.exe",
+      "matching_strategy": "Equals"
+    }
+  ]
+}
+
