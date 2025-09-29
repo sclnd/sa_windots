@@ -314,6 +314,7 @@
     font-size: 18px;
 }
 .language-widget .icon {
+    font-size: 22px;
     color: var(--green);
 }
 .language-menu {
@@ -642,4 +643,103 @@
 .active-window-widget .widget-container .label {
     font-size: 13px;
     color: var(--subtext0);
+}
+
+.komorebi-control-widget .label {
+    font-size: 14px;
+    color: #cdd6f4;
+    font-weight: 600;
+}
+.komorebi-control-menu {
+    background-color: rgba(17, 17, 27, 0.2);
+}
+.komorebi-control-menu .button {
+    color: rgba(162, 177, 199, 0.4);
+    padding: 8px 16px;
+    font-size: 32px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+.komorebi-control-menu .button.active {
+    color: rgb(228, 228, 228);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+.komorebi-control-menu .button:disabled,
+.komorebi-control-menu .button.active:disabled {
+    background-color: rgba(255, 255, 255, 0.01);
+    color: rgba(255, 255, 255, 0.2);
+}
+.komorebi-control-menu .footer .text {
+    font-size: 12px;
+    color: #6c7086;
+}
+.komorebi-layout-menu {
+    background-color:rgba(17, 17, 27, 0.4)
+}
+.komorebi-layout-menu .menu-item {
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #cdd6f4; 
+    font-weight: 600;
+}
+.komorebi-layout-menu .menu-item-icon {
+    color: #cdd6f4;
+    font-size: 16px;
+}
+.komorebi-layout-menu .menu-item-text {
+    font-family: 'Segoe UI';
+    padding-left:4px;
+    font-size: 12px;
+} 
+.komorebi-layout-menu .menu-item:hover {
+    background-color:rgba(128, 130, 158, 0.15);
+    color: #fff;
+} 
+.komorebi-layout-menu .separator {
+    max-height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.komorebi-active-layout .label {
+    font-size: 28px;
+}
+.libre-monitor-widget .widget-container .icon {
+    font-size: 20px;
+    color: var(--green);
+}
+.libre-monitor-widget .widget-container .label.alt  {
+    font-family: "CaskaydiaCove NFM";
+}
+
+.libre-menu {
+    background-color:var(--crust);
+}
+.libre-menu .header {
+    font-family: "Inter Display";
+    font-size: 18px;
+    font-weight: 600;
+    color: #cdd6f4;
+    padding: 20px 0 10px 0;
+    margin: 0 40px;
+}
+.libre-menu .sensor-item {
+    background-color:var(--base);
+    padding: 0px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--base);
+}
+.libre-menu .sensor-item:hover {
+    background-color:var(--crust);
+}
+.libre-menu .sensor-name {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Inter Display";
+    color: var(--text);
+}
+.libre-menu .sensor-value {
+    font-size: 12px;
+    font-family: "Inter Display";
+    font-weight: 600;
+    color: var(--text);
+    min-width: 60px;
 }
